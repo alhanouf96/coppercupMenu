@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="font/flaticon.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="style2.css"> 
+<link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet"></link>
+
+<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet"></link>
+
+</head>
+
+
+<body>
+
+<div class="mobile-container ">
+
+<div class="card">
+
+  <div class="container-fluid scal">
+  <img src="" alt="Denim Jeans" style="width:100%" id="myImage"> <i class="flaticon-right-arrow-angle btn" onclick="goBack()"></i>
+
+</div>
+
+  <h3 id="title"></h3>
+
+ <div id="textbox">
+                     <p class="alignleft" id="kal"><i class="flaticon-calorie"></i></p>
+                     <p class="alignright" id="price"><i class="flaticon-riyal alignright2" ></i></p>
+                         </div>
+
+  <p class="det"></p>
+
+
+
+
+</div>
+
+
+</div>
+
+
+<script>
+
+var loc=localStorage.getItem("storageName");
+
+ 
+   if(loc=="hi"){
+   document.getElementById("myImage").src = "css/images/drip/kinto.jpg";
+   document.getElementById("title").innerHTML = "كينتو";
+   document.getElementById("kal").innerHTML = "7";
+   document.getElementById("price").innerHTML = "15.00";
+   }
+
+   else if(loc=="vii"){
+
+   document.getElementById("myImage").src = "css/images/drip/v.jpg";
+   document.getElementById("title").innerHTML = "ڤي 60";
+   document.getElementById("kal").innerHTML = "7";
+   document.getElementById("price").innerHTML = "15.00";
+
+   }
+
+</script>
+
+
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+
+</body>
+</html>
+
