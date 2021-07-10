@@ -56,9 +56,9 @@ img {
 
 .nav {
   overflow: hidden;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
-  top:143px;
+  /*top:143px;*/
   float: right;
   background: white;
 
