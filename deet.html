@@ -50,25 +50,25 @@
  
 var loc=localStorage.getItem("storageName");
 
- 
-   switch(loc) {
 
-   case "hi":
-
+   if(loc=="hi"){
    document.getElementById("myImage").src = "images/drip/kinto.jpg";
    document.getElementById("title").innerHTML = "كينتو";
    document.getElementById("kal").innerHTML = "7";
    document.getElementById("price").innerHTML = "15.00";
-   break;
+   }
 
-   case "vii":
+   else if(loc=="vii"){
 
    document.getElementById("myImage").src = "images/drip/v.jpg";
    document.getElementById("title").innerHTML = "ڤي 60";
    document.getElementById("kal").innerHTML = "7";
    document.getElementById("price").innerHTML = "15.00";
-   break;
 
+
+
+
+   }
 
 
    }
