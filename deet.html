@@ -47,22 +47,25 @@
 
 <script>
 
-var loc=localStorage.getItem("storageName");
+   switch(localStorage.getItem("storageName")) {
 
- 
-   if(loc=="hi"){
-   document.getElementById("myImage").src = "css/images/drip/kinto.jpg";
+    case "hi":
+
+   document.getElementById("myImage").src = "images/drip/kinto.jpg";
    document.getElementById("title").innerHTML = "كينتو";
    document.getElementById("kal").innerHTML = "7";
    document.getElementById("price").innerHTML = "15.00";
-   }
+   break;
 
-   else if(loc=="vii"){
+   case "vii":
 
-   document.getElementById("myImage").src = "css/images/drip/v.jpg";
+   document.getElementById("myImage").src = "images/drip/v.jpg";
    document.getElementById("title").innerHTML = "ڤي 60";
    document.getElementById("kal").innerHTML = "7";
    document.getElementById("price").innerHTML = "15.00";
+   break;
+
+
 
    }
 
