@@ -25,6 +25,30 @@ $('#main .lazy').lazyload();
 </script>
 
 
+
+<script type="text/javascript">
+
+  // When the user scrolls the page, execute myFunction 
+
+document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 160) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+  });
+}); 
+
+
+
+</script>
+
 <script>    
 
 function gofor(id) {
@@ -365,7 +389,7 @@ window.location.href = "deet.html";
   <div class="row container-fluid ">
     <div class="singleinfostabs ">
 
-<ul class="nav nav-pills red mb-3 mobile-container example navv" id="pills-tab" role="tablist">
+<ul class="nav nav-pills red mb-3 mobile-container example navv" id="navbar_top" role="tablist">
 
 
 
