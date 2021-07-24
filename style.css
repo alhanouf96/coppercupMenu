@@ -18,7 +18,7 @@ color: #3f3534;
    
    padding-top: 1px;
 
-   font-size: 14px;
+   font-size: 12px;
 
    font-display: swap;
    font-family:Lemonada;
@@ -288,3 +288,10 @@ width: 120px;
 width:200px;
 
 }
+
+.footer {
+  text-align:center;
+ padding: 1px;
+color:#d2612a;
+}
+
