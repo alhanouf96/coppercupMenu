@@ -149,7 +149,7 @@ color: #3f3534;
         /* The loading Class */
         .loading {
             position: relative;
-            background-color: #d2612a;
+            opacity: 0.5;
         }
        
         /* The moving element */
