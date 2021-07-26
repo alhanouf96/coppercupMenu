@@ -122,7 +122,32 @@ color: #3f3534;
             width: 400px;
         }
        
-
+   /* Card title */
+        .card__title {
+            padding: 8px;
+            font-size: 22px;
+            font-weight: 700;
+        }
+          
+        .card__title.loading {
+            height: 1rem;
+            width: 50%;
+            margin: 1rem;
+            border-radius: 3px;
+        }
+       
+        /* Card description */
+        .card__description {
+            padding: 8px;
+            font-size: 16px;
+        }
+          
+        .card__description.loading {
+            height: 3rem;
+            margin: 1rem;
+            border-radius: 3px;
+        }
+       
         /* The loading Class */
         .loading {
             position: relative;
