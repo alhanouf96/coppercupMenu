@@ -171,7 +171,7 @@ color: #3f3534;
                     rgba(255, 255, 255, 0.2), transparent);
        
             /* Adding animation */
-            animation: loading 0.8s infinite;
+            animation: loading 1.0s infinite;
         }
        
         /* Loading Animation */
