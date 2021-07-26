@@ -52,9 +52,7 @@ overflow-x: hidden;
   background-color: white;
   color: #3f3534;
   font-size: 10px;
- padding-top: 1px;
- padding-bottom: 1px;
- padding-left: 1px
+  padding: 1px;
   border: none;
   border-radius: 60px;
   border-width: 0px;
@@ -70,7 +68,7 @@ h3{
 
 color: #3f3534;
    font-weight: bold;
-   font-size: 20px;
+   font-size: 14px;
    font-display: swap;
    font-family:Lemonada;
 }
@@ -121,33 +119,7 @@ color: #3f3534;
             height: 300px;
             width: 400px;
         }
-       
-   /* Card title */
-        .card__title {
-            padding: 8px;
-            font-size: 22px;
-            font-weight: 700;
-        }
-          
-        .card__title.loading {
-            height: 1rem;
-            width: 50%;
-            margin: 1rem;
-            border-radius: 3px;
-        }
-       
-        /* Card description */
-        .card__description {
-            padding: 8px;
-            font-size: 16px;
-        }
-          
-        .card__description.loading {
-            height: 3rem;
-            margin: 1rem;
-            border-radius: 3px;
-        }
-       
+      
         /* The loading Class */
         .loading {
             position: relative;
