@@ -46,7 +46,7 @@ overflow-x: hidden;
 .container-fluid .btn {
   position: absolute;
   top: 5%;
-  right: -4%;
+  right: 1%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: white;
@@ -71,6 +71,7 @@ color: #3f3534;
    font-size: 14px;
    font-display: swap;
    font-family:Lemonada;
+  float: center;
 }
 
 
