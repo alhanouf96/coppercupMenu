@@ -46,7 +46,7 @@ overflow-x: hidden;
 .container-fluid .btn {
   position: absolute;
   top: 5%;
-  right:1%;
+  right:3%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: white;
