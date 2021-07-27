@@ -46,7 +46,7 @@ overflow-x: hidden;
 .container-fluid .btn {
   position: absolute;
   top: 5%;
-  right: 1%;
+  right:4%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: white;
@@ -69,7 +69,7 @@ h3{
 
 color: #3f3534;
    font-weight: bold;
-   font-size: 14px;
+   font-size: 12px;
    font-display: swap;
    font-family:Lemonada;
   float: center;
@@ -77,16 +77,18 @@ color: #3f3534;
 
 
 p{
-
+ font-size: 12px;
   color:red;
   font-family: Cairo;
   font-display: swap;
+  
 }
 
 
 .det{
 
 color: #3f3534;
+  font-size: 10px;
 
 }
 
