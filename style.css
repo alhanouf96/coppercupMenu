@@ -13,7 +13,7 @@ body {
 
 h5{
 
-color: #3f3534;
+  color: #3f3534;
   text-align:right;
    
    padding-top: 10px;
@@ -28,7 +28,7 @@ color: #3f3534;
 
 p{
 text-align:right;
-font-size: 14px;
+font-size: 12px;
 
 }
 
@@ -269,7 +269,7 @@ border-top-left-radius: 0px;
 /* reszie  img*/
 .scal2{
 
-width: 300px;
+width: 100px;
 
 
 
@@ -290,12 +290,12 @@ width:200px;
 }
 
 .footer {
+	font-size: 10px;
   text-align:center;
  padding: 1px;
 color:#d2612a;
-  font-size: 10px;
-}
 
+}
 
 
 
